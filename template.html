@@ -2,10 +2,37 @@
 <html lang="en">
   <head>
     <style>
+      #bottom.div{
+        padding: 5px;
+      }
+      #middle {
+        display: block;
+        margin: -20px;
+      }
       div {
         padding: 2%;
       }
-  
+      #left {
+        display: inline;
+        float: left;
+        width: 50%;
+        padding-right: 0px;
+      }
+      #right {
+        display: inline;
+        float: right;
+        width: 50%;
+        padding-left: 0px;
+      }
+      #bottom {
+        display: flex;
+        padding: 0%;
+      }
+      div.p{
+        text-align: justify;
+      }
+     
+      
     </style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -84,6 +111,37 @@
         </li>
       </ul>
     </div>
-    
+    <div id="bottom">
+      <div id="left">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+          voluptate inventore est dolorudi Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Vitae voluptate inventore est dolorudi
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+          voluptate inventore est dolorudi Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Vitae voluptate inventore est dolorudi
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+          voluptate inventore est dolorudi Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Vitae voluptate inventore est dolorudi
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+          voluptate inventore est dolorudi
+        </p>
+      </div>
+
+      <div id="right">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+          voluptate inventore est dolorum officia dicta! Deserunt dignissimos,
+          cum voluptatibus eum nobis quae. Deleniti perferendis ipsum obcaecati
+          enim cupiditate dolore nihil? Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Quos quod quaerat numquam natus est quisquam
+          eligendi, eum totam animi inventore sunt non magni, cumque recusandae.
+          Saepe consectetur corrupti tempore exercitationem. Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Hic facilis dicta id maiores
+          qui sapiente necessitatibus officia ad eum minima enim voluptatum
+          molestiae similique expedita doloribus iure, voluptates fugiat labore.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
