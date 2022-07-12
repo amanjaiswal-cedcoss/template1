@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html2</title>
+    <style>
+      body {
+        margin: 0px;
+        height: 500px;
+      }
+      #header {
+        text-align: center;
+        height: 10%;
+        width: 100%;
+        background-color: gray;
+        border-bottom: 4px solid black;
+      }
+      #middle {
+        display: flex;
+        height: 80%;
+      }
+      #left {
+        display: inline;
+        width: 20%;
+        border-right: 4px solid black;
+        background-color: gray;
+      }
+      #right {
+        display: inline;
+        width: 80%;
+        background-color: rgb(161 215 119);
+      }
+      li {
+        list-style: none;
+        padding: 4% 2% 4% 2%;
+}
+      
+      #footer {
+        height: 10%;
+        width: 100%;
+        align-items: center;
+        border-top: 4px solid black;
+        background-color: gray;
+        vertical-align: middle;
+      }
+      img {
+        height: 40px;
+        width: 100px;
+        position: relative;
+        left: 43%;
+        top: 10%;
+        vertical-align: middle;
+      }
+      #d1 {
+        position: relative;
+        top: 2%;
+        left: 22%;
+        width: 64%;
+        height: 35%;
+        border: 1px solid gray;
+        overflow: hidden;
+      }
+      #d2 {
+        position: relative;
+        top: 2%;
+        left: 22%;
+        width: 64%;
+        height: 35%;
+        border: 1px solid gray;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-align: center;
+        overflow: hidden;
+      }
+      h2 {
+        margin-top: 0px;
+        text-align: center;
+      }
+      h3 {
+        margin-top: 3%;
+        text-align: center;
+      }
+
+      table{
+        align-items: center;
+        margin: auto;
+      }
+      .label{
+        text-align: right;
+      }
+      #TellStory {
+        padding: 0px 5px 0px 5px;
+        border-radius: 4px;
+        border: 1px solid black;
+      }
+      #but{
+        padding-top: 4%;
+      }
+      #d2 p{
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header"><h1>Assignment 7</h1></div>
+    <div id="middle">
+      <div id="left">
+        <ul>
+          <li><b>Home</b></li>
+          <li><b>Mad Libs</b></li>
+          <li><b>Tom Thumb</b></li>
+        </ul>
+      </div>
+      <div id="right">
+        <h2>Mad Libs</h2>
+        <div id="d1">
+          <table>
+            <tr>
+              <td class="label">Person name</td>
+              <td><input type="text" placeholder="Superman" /></td>
+            </tr>
+
+            <tr>
+              <td class="label">Character</td>
+              <td><input type="text" placeholder="Batman" /></td>
+            </tr>
+
+            <tr>
+              <td class="label">Adverb</td>
+              <td><input type="text" placeholder="quickly" /></td>
+            </tr>
+
+            <tr>
+              <td class="label">Adjective</td>
+              <td><input type="text" placeholder="mean" /></td>
+            </tr>
+            <tr><td> </td><td id="but"><button id="TellStory">Tell Story</button></td></tr>
+          </table>
+         
+        </div>
+        <br />
+        <div id="d2">
+          <h3>Wendy's Crazy Mad Libs Story</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            cupiditate quam neque eum quo adipisci tempore, qui, ab voluptatum
+            in illo obcaecati reiciendis suscipit doloribus? Nostrum
+            exercitationem fugiat deleniti saepe!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <img src="htmllogo.png" alt="html" />
+      <img src="csslogo.png" alt="css" />
+    </div>
+  </body>
+</html>
